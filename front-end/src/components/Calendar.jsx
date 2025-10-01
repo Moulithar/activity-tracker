@@ -57,7 +57,7 @@ function Calendar() {
   }, []);
 
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex" , background: "linear-gradient(120deg, #43A047, #8BC34A, #C8E6C9)", padding: "8px"}}>
       {showModal && (
         <div
           style={{

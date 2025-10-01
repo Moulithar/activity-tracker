@@ -36,6 +36,10 @@
     isolation: isolate;
 }
 
+body{
+    margin: 0;
+}
+
 .fc.fc-media-screen {
     height: calc(100vh - 16px);
     width:100%;
